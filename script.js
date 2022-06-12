@@ -32,7 +32,7 @@ console.log(result)
 // Дан массив [1,2,45,"hello", 233, 100, "world", 45]. Переберите массив так чтоб у вас в консоли были только числа
 const newArr = [1,2,45,"hello", 233, 100, "world", 45];
 for (let i = 0; i < newArr.length; i++ ){
-    if(typeof newArr[i] === Number){
+    if(typeof newArr[i] === 'number'){
         console.log(newArr[i])
     };
 }
